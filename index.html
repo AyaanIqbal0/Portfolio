@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@400;700&family=Roboto+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Ayaan's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi,My name is <span class="purple">Ayaan</span>
+
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Github</button>
+          </div>
+        </div>
+
+        <div class="rightSection">
+          <img src="images/develop.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-grey">What I have learnt so far</span>
+        <h1>Technical Skills</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="images/java.png" alt="" />
+            <div class="vertical-title">JAVA</div>
+            <div class="vertical-desc">
+              Java is a widely-used programming language for coding web
+              application,with millions of java application in use Today.java is
+              multi-platform,object oriented and network-centric language.
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="images/html.png" alt="" />
+            <div class="vertical-title">HTML</div>
+            <div class="vertical-desc">
+              The HyperText Markup Language or HTML is the standard markup
+              language for documents designed to be displayed in a web browser.
+              It defines the meaning and structure of web content
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="images/css.png" alt="" />
+            <div class="vertical-title">CSS</div>
+            <div class="vertical-desc">
+              CSS stands for Cascading Style Sheets. It is a style sheet
+              language which is used to describe the look and formatting of a
+              document written in markup language. It provides an additional
+              feature to HTML.
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="images/javascript.png" alt="" />
+            <div class="vertical-title">JAVASCRIPT</div>
+            <div class="vertical-desc">
+              avaScript (JS) is a cross-platform, object-oriented programming
+              language used by developers to make web pages interactive. It
+              allows developers to create dynamically updating content, use
+              animations, pop-up menus, clickable buttons, control multimedia,
+              etc.
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="images/c.png" alt="" />
+            <div class="vertical-title">C</div>
+            <div class="vertical-desc">
+              C is a general-purpose computer programming language. It was
+              created in the 1970s by Dennis Ritchie, and remains very widely
+              used and influential. By design, C's features cleanly reflect the
+              capabilities of the targeted CPUs.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Ayaan's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Services</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Services</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Services</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        Copyright &#169; www.ayaansportfolio.com | All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Programmer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
